@@ -1,0 +1,198 @@
+/* ======= Estilos generales ======= */
+.bartender-interface {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.bartender-interface h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.bartender-interface p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* ======= Mesas ======= */
+.mesa-section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mesa-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+.mesa-section h2 {
+  margin-bottom: 10px;
+  color: #34495e;
+  font-size: 18px;
+}
+
+.mesa-section ul {
+  padding-left: 20px;
+}
+
+.mesa-section li {
+  font-size: 15px;
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mesa-section li:last-child {
+  border-bottom: none;
+}
+
+/* ======= Botones ======= */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+.remove-button {
+  background-color: #e74c3c !important;
+}
+
+.remove-button:hover {
+  background-color: #c0392b !important;
+}
+
+/* Botón PDF */
+.stats button {
+  background-color: #27ae60;
+}
+
+.stats button:hover {
+  background-color: #1e8449;
+}
+
+/* ======= Resumen de ventas ======= */
+.stats {
+  margin-top: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.05);
+}
+
+.stats h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.stats p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.stats strong {
+  font-size: 16px;
+  color: #27ae60;
+}
+
+.stats details {
+  margin-top: 10px;
+}
+
+.stats summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #34495e;
+}
+
+/* ======= Responsive ======= */
+@media (max-width: 600px) {
+  .bartender-interface {
+    padding: 12px;
+  }
+  
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+.pedidos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.columna {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.pedido-card {
+  background: #f9f9f9;
+  border-left: 4px solid transparent;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.pendiente {
+  border-left-color: orange;
+}
+
+.completado {
+  border-left-color: green;
+}
+
+.pedido-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.pedido-items {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.btn-completar {
+  background: #2ecc71;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background: #e67e22;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}

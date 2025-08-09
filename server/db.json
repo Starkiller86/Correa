@@ -1,0 +1,1248 @@
+{
+  "cuentas": [
+    {
+      "id": "1754691492672",
+      "table": 4,
+      "items": [
+        {
+          "id": "1754691476478jpo8uhf",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T22:18:12.672Z",
+      "status": "pending",
+      "source": "kitchen"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "1",
+      "name": "Hamburguesa Clásica",
+      "price": 120,
+      "ingredients": [
+        "Pan",
+        "Carne",
+        "Lechuga",
+        "Tomate",
+        "Queso"
+      ],
+      "category": "Platos Fuertes"
+    },
+    {
+      "id": "2",
+      "name": "Pizza Margarita",
+      "price": 240,
+      "ingredients": [
+        "Masa",
+        "Salsa",
+        "Queso",
+        "Albahaca"
+      ],
+      "category": "Italianos"
+    },
+    {
+      "id": "3",
+      "name": "Refresco",
+      "price": 30,
+      "ingredients": [
+        "Sidra",
+        "Grosella",
+        "Coca Cola"
+      ],
+      "category": "Bebidas"
+    },
+    {
+      "id": "4",
+      "name": "Jugo Natural",
+      "price": 3,
+      "ingredients": [
+        "Naranja",
+        "Zanahoria"
+      ],
+      "category": "Bebidas"
+    },
+    {
+      "id": "19",
+      "name": "Paquete 1",
+      "price": 299,
+      "ingredients": [
+        "Carnitas (1 kg), ",
+        "Tortillas, ",
+        "Salsa, ",
+        "Chiles en vinagre, ",
+        "Pico de gallo, ",
+        "Limones. "
+      ],
+      "category": "Paquetes"
+    },
+    {
+      "id": "20",
+      "name": "Paquete 2",
+      "price": 329,
+      "ingredients": [
+        "Carnitas (1 kg), ",
+        "Tortillas, ",
+        "Salsa, ",
+        "Chiles en vinagre, ",
+        "Pico de gallo, ",
+        "Limones, ",
+        "Arroz, ",
+        "Frijoles."
+      ],
+      "category": "Paquetes"
+    },
+    {
+      "id": "5",
+      "name": "Paquete 3",
+      "price": 389,
+      "ingredients": [
+        "Carnitas (1 kg), ",
+        "Tortillas, ",
+        "Salsa, ",
+        "Chiles en vinagre, ",
+        "Pico de gallo, ",
+        "Limones, ",
+        "Arroz, ",
+        "Frijoles, ",
+        "Chicharrón (100 g), ",
+        "Refresco (2 L)."
+      ],
+      "category": "Paquetes"
+    },
+    {
+      "id": "6",
+      "name": "Paquete de Parrillada",
+      "price": 449,
+      "ingredients": [
+        "Chuletón de res (350 g), ",
+        "T-bone (250 g), ",
+        "Chorizo (150 g), ",
+        "Pastor (150 g), ",
+        "Cebolla, ",
+        "Chiles toreados, ",
+        "Tortillas, ",
+        "Salsa, ",
+        "Arroz, ",
+        "Frijoles, ",
+        "Limones."
+      ],
+      "category": "Parrilladas"
+    },
+    {
+      "id": "7",
+      "name": "Paquete de Arrachera",
+      "price": 449,
+      "ingredients": [
+        "Arrachera (1 kg)",
+        "Tortillas",
+        "Nopales",
+        "Cebolla",
+        "Chiles toreados"
+      ],
+      "category": "Parrilladas"
+    },
+    {
+      "id": "8",
+      "name": "Pa que Combines",
+      "price": 479,
+      "ingredients": [
+        "Carnitas (500 g)",
+        "Arrachera (500 g)",
+        "Orden de guacamole",
+        "Gorditas de migaja (5)",
+        "Chicharrón (100 g)",
+        "Tortillas",
+        "Salsa",
+        "Chiles en vinagre",
+        "Limones"
+      ],
+      "category": "Paquetes Especiales"
+    },
+    {
+      "id": "9",
+      "name": "Pa que Compartas",
+      "price": 199,
+      "ingredients": [
+        "Chamorro adobado",
+        "Enchiladas queretanas (6)",
+        "Tortillas",
+        "Refresco (2 L)"
+      ],
+      "category": "Paquetes Especiales"
+    },
+    {
+      "id": "10",
+      "name": "Arroz con Huevo",
+      "price": 55,
+      "ingredients": [
+        "Arroz",
+        "Huevo"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "11",
+      "name": "Consomé de Pollo",
+      "price": 65,
+      "ingredients": [
+        "Pollo",
+        "Arroz",
+        "Verduras"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "12",
+      "name": "Sopa Azteca Tradicional",
+      "price": 75,
+      "ingredients": [
+        "Maíz",
+        "Aguacate",
+        "Chicharrón",
+        "Queso",
+        "Crema"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "13",
+      "name": "Jugo de Carne",
+      "price": 75,
+      "ingredients": [
+        "Carne",
+        "Toque de jerez"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "14",
+      "name": "Frijoles Charros",
+      "price": 90,
+      "ingredients": [
+        "Frijoles",
+        "Chorizo",
+        "Tocino",
+        "Salchicha"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "15",
+      "name": "Sopa de Médula",
+      "price": 90,
+      "ingredients": [
+        "Médula",
+        "Caldo de chipotle"
+      ],
+      "category": "Caldos y Sopas"
+    },
+    {
+      "id": "16",
+      "name": "Tradicional con Chicharrón y Carnitas",
+      "price": 340,
+      "ingredients": [
+        "Chicharrón (50 g)",
+        "Carnitas (250 g)",
+        "Nopales guisados a la mexicana"
+      ],
+      "category": "Del Rancho a la Ciudad"
+    },
+    {
+      "id": "17",
+      "name": "Camarón, Queso y Chorizo",
+      "price": 360,
+      "ingredients": [
+        "Camarón (150 g)",
+        "Queso",
+        "Chorizo (100 g)",
+        "Nopales guisados a la mexicana"
+      ],
+      "category": "Del Rancho a la Ciudad"
+    },
+    {
+      "id": "18",
+      "name": "Arrachera y Chorizo",
+      "price": 360,
+      "ingredients": [
+        "Arrachera (250 g)",
+        "Chorizo (100 g)",
+        "Nopales guisados a la mexicana"
+      ],
+      "category": "Del Rancho a la Ciudad"
+    },
+    {
+      "id": "954d",
+      "name": "Camaron Salteados",
+      "price": 340,
+      "ingredients": [
+        "Camarón",
+        "chiles",
+        "lechuga"
+      ],
+      "category": "Platos Fuertes"
+    }
+  ],
+  "alcohol": [
+    {
+      "id": "1",
+      "name": "Tequila Sunrise",
+      "price": 110,
+      "ingredients": [
+        "Tequila",
+        "Jugo de naranja",
+        "Granadina"
+      ],
+      "category": "Tragos"
+    },
+    {
+      "id": "2",
+      "name": "Whisky en las rocas",
+      "price": 560,
+      "ingredients": [
+        "Whisky",
+        "Hielo"
+      ],
+      "category": "Botellas"
+    },
+    {
+      "id": "3",
+      "name": "Cuba Libre",
+      "price": 90,
+      "ingredients": [
+        "Ron",
+        "Coca-Cola",
+        "Limón"
+      ],
+      "category": "Tragos"
+    },
+    {
+      "id": "4",
+      "name": "Gin Tonic",
+      "price": 100,
+      "ingredients": [
+        "Ginebra",
+        "Tónica",
+        "Rodaja de limón"
+      ],
+      "category": "Tragos"
+    },
+    {
+      "id": "5",
+      "name": "Vodka con jugo",
+      "price": 130,
+      "ingredients": [
+        "Vodka",
+        "Jugo de naranja"
+      ],
+      "category": "Tragos"
+    },
+    {
+      "id": "6",
+      "name": "Botella de Ron",
+      "price": 600,
+      "ingredients": [
+        "Ron Oscuro"
+      ],
+      "category": "Botellas"
+    },
+    {
+      "id": "7",
+      "name": "Botella de Tequila",
+      "price": 800,
+      "ingredients": [
+        "Tequila Reposado"
+      ],
+      "category": "Botellas"
+    },
+    {
+      "id": "8",
+      "name": "Mojito",
+      "price": 120,
+      "ingredients": [
+        "Ron",
+        "Hierbabuena",
+        "Azúcar",
+        "Soda",
+        "Limón"
+      ],
+      "category": "Tragos"
+    },
+    {
+      "id": "3616",
+      "name": "Vodka",
+      "price": 800,
+      "ingredients": [
+        "Vodka",
+        "hielos"
+      ],
+      "category": "Botellas"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1754690861500",
+      "table": 14,
+      "items": [
+        {
+          "id": "1754690854505e1e7w8z",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754690858626afywcjp",
+          "name": "Refresco",
+          "price": 30,
+          "ingredients": [
+            "Sidra",
+            "Grosella",
+            "Coca Cola"
+          ],
+          "category": "Bebidas",
+          "choice": "Coca Cola",
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T22:07:41.500Z",
+      "status": "pending"
+    },
+    {
+      "id": "1754690975206",
+      "table": 14,
+      "items": [
+        {
+          "id": "1754690971533h9y6bf2",
+          "name": "Arrachera y Chorizo",
+          "price": 360,
+          "ingredients": [
+            "Arrachera (250 g)",
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754690973684pfy2o3h",
+          "name": "Camarón, Queso y Chorizo",
+          "price": 360,
+          "ingredients": [
+            "Camarón (150 g)",
+            "Queso",
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": [
+            "Nopales guisados a la mexicana"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-08T22:09:35.206Z",
+      "status": "pending"
+    },
+    {
+      "id": "1754691343045",
+      "table": 5,
+      "items": [
+        {
+          "id": "17546913367644vawu4g",
+          "name": "Pizza Margarita",
+          "price": 240,
+          "ingredients": [
+            "Masa",
+            "Salsa",
+            "Queso",
+            "Albahaca"
+          ],
+          "category": "Italianos",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T22:15:43.045Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754691352717",
+      "table": 14,
+      "items": [
+        {
+          "id": "17546913508795m9n884",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T22:15:52.717Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754691492672",
+      "table": 4,
+      "items": [
+        {
+          "id": "1754691476478jpo8uhf",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T22:18:12.672Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754692784236",
+      "table": 6,
+      "items": [
+        {
+          "id": "17546927823308vgshwg",
+          "name": "Pizza Margarita",
+          "price": 240,
+          "ingredients": [
+            "Masa",
+            "Salsa",
+            "Queso",
+            "Albahaca"
+          ],
+          "category": "Italianos",
+          "choice": null,
+          "excludedIngredients": [
+            "Queso"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-08T22:39:44.236Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754694257870",
+      "table": 15,
+      "items": [
+        {
+          "id": "17546941501600csvj89",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754694151666dn8va5e",
+          "name": "Pizza Margarita",
+          "price": 240,
+          "ingredients": [
+            "Masa",
+            "Salsa",
+            "Queso",
+            "Albahaca"
+          ],
+          "category": "Italianos",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754694155170kon7rpj",
+          "name": "Refresco",
+          "price": 30,
+          "ingredients": [
+            "Sidra",
+            "Grosella",
+            "Coca Cola"
+          ],
+          "category": "Bebidas",
+          "choice": "Coca Cola",
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754694164790j9r67at",
+          "name": "Tradicional con Chicharrón y Carnitas",
+          "price": 340,
+          "ingredients": [
+            "Chicharrón (50 g)",
+            "Carnitas (250 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:04:17.870Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754694462655",
+      "table": 4,
+      "items": [
+        {
+          "id": "17546944551628h5b30l",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": [
+            "Tomate"
+          ]
+        },
+        {
+          "id": "17546944572927ky46sd",
+          "name": "Refresco",
+          "price": 30,
+          "ingredients": [
+            "Sidra",
+            "Grosella",
+            "Coca Cola"
+          ],
+          "category": "Bebidas",
+          "choice": "Coca Cola",
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754694459656rriae3w",
+          "name": "Jugo Natural",
+          "price": 3,
+          "ingredients": [
+            "Naranja",
+            "Zanahoria"
+          ],
+          "category": "Bebidas",
+          "choice": "Naranja",
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:07:42.655Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754694735504",
+      "table": 4,
+      "items": [
+        {
+          "id": "1754694734494tbozxo4",
+          "name": "Camarón, Queso y Chorizo",
+          "price": 360,
+          "ingredients": [
+            "Camarón (150 g)",
+            "Queso",
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:12:15.504Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754694744878",
+      "table": 4,
+      "items": [
+        {
+          "id": "1754694743728bxt2itf",
+          "name": "Camaron Salteados",
+          "price": 340,
+          "ingredients": [
+            "Camarón",
+            "chiles",
+            "lechuga"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:12:24.878Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754696278423",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754696267985sbrr3c5",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "17546962744829io7fwr",
+          "name": "Refresco",
+          "price": 30,
+          "ingredients": [
+            "Sidra",
+            "Grosella",
+            "Coca Cola"
+          ],
+          "category": "Bebidas",
+          "choice": "Coca Cola",
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:37:58.423Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754696283533",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754696267985sbrr3c5",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "17546962744829io7fwr",
+          "name": "Refresco",
+          "price": 30,
+          "ingredients": [
+            "Sidra",
+            "Grosella",
+            "Coca Cola"
+          ],
+          "category": "Bebidas",
+          "choice": "Coca Cola",
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:38:03.533Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754696307863",
+      "table": 6,
+      "items": [
+        {
+          "id": "1754696306771t2mc67c",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-08T23:38:27.863Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754775586006",
+      "table": 1,
+      "items": [
+        {
+          "id": "1754775556787ndzyegx",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754775561396a5zyplf",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": [
+            "Tomate"
+          ]
+        },
+        {
+          "id": "1754775571030j82vpoc",
+          "name": "Paquete de Arrachera",
+          "price": 449,
+          "ingredients": [
+            "Arrachera (1 kg)",
+            "Tortillas",
+            "Nopales",
+            "Cebolla",
+            "Chiles toreados"
+          ],
+          "category": "Parrilladas",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754775583695xn3pjh5",
+          "name": "Tradicional con Chicharrón y Carnitas",
+          "price": 340,
+          "ingredients": [
+            "Chicharrón (50 g)",
+            "Carnitas (250 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": [
+            "Nopales guisados a la mexicana"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T21:39:46.006Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754776971273",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754776957950tarj3qn",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754776960408zf3qtr2",
+          "name": "Paquete 3",
+          "price": 389,
+          "ingredients": [
+            "Carnitas (1 kg), ",
+            "Tortillas, ",
+            "Salsa, ",
+            "Chiles en vinagre, ",
+            "Pico de gallo, ",
+            "Limones, ",
+            "Arroz, ",
+            "Frijoles, ",
+            "Chicharrón (100 g), ",
+            "Refresco (2 L)."
+          ],
+          "category": "Paquetes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754776968958cuxyczj",
+          "name": "Camarón, Queso y Chorizo",
+          "price": 360,
+          "ingredients": [
+            "Camarón (150 g)",
+            "Queso",
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": [
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T22:02:51.273Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754776990518",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754776989264xmuhe2z",
+          "name": "Pizza Margarita",
+          "price": 240,
+          "ingredients": [
+            "Masa",
+            "Salsa",
+            "Queso",
+            "Albahaca"
+          ],
+          "category": "Italianos",
+          "choice": null,
+          "excludedIngredients": [
+            "Albahaca"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T22:03:10.518Z",
+      "status": "completed",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754777009036",
+      "table": 9,
+      "items": [
+        {
+          "id": "1754777007401j3hkhzj",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-09T22:03:29.036Z",
+      "status": "completed",
+      "source": "kitchen"
+    }
+  ],
+  "cuentas_restaurante": [
+    {
+      "id": "1754775586006",
+      "table": 1,
+      "items": [
+        {
+          "id": "1754775556787ndzyegx",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754775561396a5zyplf",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": [
+            "Tomate"
+          ]
+        },
+        {
+          "id": "1754775571030j82vpoc",
+          "name": "Paquete de Arrachera",
+          "price": 449,
+          "ingredients": [
+            "Arrachera (1 kg)",
+            "Tortillas",
+            "Nopales",
+            "Cebolla",
+            "Chiles toreados"
+          ],
+          "category": "Parrilladas",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754775583695xn3pjh5",
+          "name": "Tradicional con Chicharrón y Carnitas",
+          "price": 340,
+          "ingredients": [
+            "Chicharrón (50 g)",
+            "Carnitas (250 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": [
+            "Nopales guisados a la mexicana"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T21:39:46.006Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754776971273",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754776957950tarj3qn",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754776960408zf3qtr2",
+          "name": "Paquete 3",
+          "price": 389,
+          "ingredients": [
+            "Carnitas (1 kg), ",
+            "Tortillas, ",
+            "Salsa, ",
+            "Chiles en vinagre, ",
+            "Pico de gallo, ",
+            "Limones, ",
+            "Arroz, ",
+            "Frijoles, ",
+            "Chicharrón (100 g), ",
+            "Refresco (2 L)."
+          ],
+          "category": "Paquetes",
+          "choice": null,
+          "excludedIngredients": []
+        },
+        {
+          "id": "1754776968958cuxyczj",
+          "name": "Camarón, Queso y Chorizo",
+          "price": 360,
+          "ingredients": [
+            "Camarón (150 g)",
+            "Queso",
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ],
+          "category": "Del Rancho a la Ciudad",
+          "choice": null,
+          "excludedIngredients": [
+            "Chorizo (100 g)",
+            "Nopales guisados a la mexicana"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T22:02:51.273Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754776990518",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754776989264xmuhe2z",
+          "name": "Pizza Margarita",
+          "price": 240,
+          "ingredients": [
+            "Masa",
+            "Salsa",
+            "Queso",
+            "Albahaca"
+          ],
+          "category": "Italianos",
+          "choice": null,
+          "excludedIngredients": [
+            "Albahaca"
+          ]
+        }
+      ],
+      "timestamp": "2025-08-09T22:03:10.518Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754777009036",
+      "table": 9,
+      "items": [
+        {
+          "id": "1754777007401j3hkhzj",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-09T22:03:29.036Z",
+      "status": "pending",
+      "source": "kitchen"
+    }
+  ],
+  "cuentas_bar": [
+    {
+      "id": "1754777080293",
+      "table": 1,
+      "items": [
+        {
+          "id": "1754777074382r0e8zyc",
+          "name": "Whisky en las rocas",
+          "price": 1680,
+          "ingredients": [
+            "Whisky",
+            "Hielo"
+          ],
+          "category": "Botellas",
+          "size": "simple",
+          "quantity": 3,
+          "basePrice": 560
+        }
+      ],
+      "timestamp": "2025-08-09T22:04:40.293Z",
+      "status": "pending",
+      "source": "bar"
+    },
+    {
+      "id": "1754777096243",
+      "table": 6,
+      "items": [
+        {
+          "id": "1754777090962si1x8rw",
+          "name": "Tequila Sunrise",
+          "price": 110,
+          "ingredients": [
+            "Tequila",
+            "Jugo de naranja",
+            "Granadina"
+          ],
+          "category": "Tragos",
+          "size": "simple",
+          "quantity": 1,
+          "basePrice": 110
+        },
+        {
+          "id": "1754777094887pdc6vih",
+          "name": "Mojito",
+          "price": 120,
+          "ingredients": [
+            "Ron",
+            "Hierbabuena",
+            "Azúcar",
+            "Soda",
+            "Limón"
+          ],
+          "category": "Tragos",
+          "size": "simple",
+          "quantity": 1,
+          "basePrice": 120
+        }
+      ],
+      "timestamp": "2025-08-09T22:04:56.243Z",
+      "status": "pending",
+      "source": "bar"
+    }
+  ]
+}
