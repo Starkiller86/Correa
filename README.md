@@ -115,7 +115,7 @@ dedupById() para evitar duplicados.
 Normalización de cuentas y pedidos.
 Sincronización de estado con localStorage.
 
-## Roles y contraseñas (entorno de prueba)
+## Roles y contraseñas
 
 | Usuario       | Contraseña | Rol            |
 |---------------|------------|----------------|
