@@ -56,6 +56,9 @@ client/
     cd server
     node server.js
 
+    cd server
+    node serverBar.js
+
 4. **Iniciar servidor de datos (JSON Server)**
     ```bash
     cd server
