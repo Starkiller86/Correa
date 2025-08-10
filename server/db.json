@@ -1021,6 +1021,50 @@
       "timestamp": "2025-08-09T23:56:19.227Z",
       "status": "completed",
       "source": "kitchen"
+    },
+    {
+      "id": "1754786745493",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754786737791axjnmtx",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": [
+            "Tomate"
+          ]
+        },
+        {
+          "id": "1754786740397qx14w61",
+          "name": "Paquete 2",
+          "price": 329,
+          "ingredients": [
+            "Carnitas (1 kg), ",
+            "Tortillas, ",
+            "Salsa, ",
+            "Chiles en vinagre, ",
+            "Pico de gallo, ",
+            "Limones, ",
+            "Arroz, ",
+            "Frijoles."
+          ],
+          "category": "Paquetes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-10T00:45:45.495Z",
+      "status": "completed",
+      "source": "kitchen"
     }
   ],
   "cuentas_restaurante": [
@@ -1226,6 +1270,50 @@
         }
       ],
       "timestamp": "2025-08-09T23:56:19.227Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754786745493",
+      "table": 8,
+      "items": [
+        {
+          "id": "1754786737791axjnmtx",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": [
+            "Tomate"
+          ]
+        },
+        {
+          "id": "1754786740397qx14w61",
+          "name": "Paquete 2",
+          "price": 329,
+          "ingredients": [
+            "Carnitas (1 kg), ",
+            "Tortillas, ",
+            "Salsa, ",
+            "Chiles en vinagre, ",
+            "Pico de gallo, ",
+            "Limones, ",
+            "Arroz, ",
+            "Frijoles."
+          ],
+          "category": "Paquetes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-10T00:45:45.495Z",
       "status": "pending",
       "source": "kitchen"
     }

@@ -5,22 +5,37 @@ import express from "express";
 import cors from "cors";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
+import os from "os";
 
 // =====================
 // Configuración
 // =====================
 const JWT_SECRET = "clave_super_segura"; // ponla en .env en producción
-const PORT_HTTP = 3001;
 const PORT_WS = 8080;
+
+// Función para detectar IP local
+function getLocalIp() {
+  const interfaces = os.networkInterfaces();
+  for (const name of Object.keys(interfaces)) {
+    for (const iface of interfaces[name]) {
+      if (iface.family === "IPv4" && !iface.internal) {
+        return iface.address;
+      }
+    }
+  }
+  return "localhost";
+}
+
+const localIp = getLocalIp();
 
 // Usuarios de ejemplo (en producción vendrían de una BD)
 const users = [
   { username: "meseroCocina", password: bcrypt.hashSync("1234", 8), role: "mesero-cocina" },
-  { username: "meseroBar", password: bcrypt.hashSync("1234", 8), role: "mesero-bar" },
-  { username: "cocinero", password: bcrypt.hashSync("1234", 8), role: "cocinero" },
-  { username: "bartender", password: bcrypt.hashSync("1234", 8), role: "bartender" },
-  { username: "adminComida", password: bcrypt.hashSync("1234", 8), role: "admin-comida" },
-  { username: "adminBebidas", password: bcrypt.hashSync("1234", 8), role: "admin-bebidas" },
+  { username: "meseroBar", password: bcrypt.hashSync("5678", 8), role: "mesero-bar" },
+  { username: "cocinero", password: bcrypt.hashSync("abcd", 8), role: "cocinero" },
+  { username: "bartender", password: bcrypt.hashSync("fghi", 8), role: "bartender" },
+  { username: "adminComida", password: bcrypt.hashSync("1234+", 8), role: "admin-comida" },
+  { username: "adminBebidas", password: bcrypt.hashSync("5678+", 8), role: "admin-bebidas" },
 ];
 
 // =====================
@@ -48,10 +63,10 @@ function verifyToken(req, res, next) {
 app.post("/login", (req, res) => {
   const { username, password } = req.body;
   const user = users.find((u) => u.username === username);
-  if (!user) return res.status(401).json({ message: "Usuario o contraseña incorrectos" });
+  if (!user) return res.status(401).json({ message: "Rol o contraseña incorrectos" });
 
   if (!bcrypt.compareSync(password, user.password)) {
-    return res.status(401).json({ message: "Usuario o contraseña incorrectos" });
+    return res.status(401).json({ message: "Rol o contraseña incorrectos" });
   }
 
   const token = jwt.sign({ username: user.username, role: user.role }, JWT_SECRET, { expiresIn: "8h" });
@@ -151,5 +166,5 @@ function safeSend(ws, obj) {
 // =====================
 server.listen(PORT_WS, "0.0.0.0", () => {
   console.log(`🚀 Servidor HTTP+WS escuchando en puerto ${PORT_WS}`);
-  console.log(`🛠 Login disponible en http://localhost:${PORT_WS}/login`);
+  console.log(`🛠 Login disponible en http://${localIp}:${PORT_WS}/login`);
 });

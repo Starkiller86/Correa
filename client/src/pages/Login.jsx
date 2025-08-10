@@ -21,14 +21,15 @@ export default function Login() {
 
   const handleLogin = async () => {
     if (!username || !password) {
-      alert("Por favor ingresa usuario y contraseña");
+      alert("Por favor ingresa rol y contraseña");
       return;
     }
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8080/login", {
-        // 👈 Usa el puerto del backend unificado
+      const API_URL = `http://${window.location.hostname}:8080`;
+
+      const res = await fetch(`${API_URL}/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -68,7 +69,7 @@ export default function Login() {
       <input
         style={styles.input}
         type="text"
-        placeholder="Correo"
+        placeholder="Rol"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
