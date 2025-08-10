@@ -115,13 +115,17 @@ dedupById() para evitar duplicados.
 Normalización de cuentas y pedidos.
 Sincronización de estado con localStorage.
 
-*Roles y contraseñas definidos para este contexto:*
-"meseroCocina" password: "1234" role: mesero-cocina
-"meseroBar" password: "5678" role: mesero-bar
-"cocinero" password: "abcd" role: cocinero
-"bartender" password: "fghi" role: bartender
-"adminComida" password: "1234+" role: admin-comida
-"adminBebidas" password: "5678+" role: admin-bebidas
+## Roles y contraseñas (entorno de prueba)
+
+| Usuario       | Contraseña | Rol            |
+|---------------|------------|----------------|
+| meseroCocina  | 1234       | mesero-cocina  |
+| meseroBar     | 5678       | mesero-bar     |
+| cocinero      | abcd       | cocinero       |
+| bartender     | fghi       | bartender      |
+| adminComida   | 1234+      | admin-comida   |
+| adminBebidas  | 5678+      | admin-bebidas  |
+
 
 ✍️ Autores: González Becerra Karen Alejandra y Hernández Salinas Mario Alberto. Estudiantes de Ing. en TICS e Innovación Digital en UTEQ
 
