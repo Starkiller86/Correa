@@ -48,17 +48,21 @@ client/
    cd <carpeta-del-proyecto>
 
 2. **Instalar dependencias**
+    ```bash
     npm install
 
 3. **Iniciar servidor**
+    ```bash
     cd server
     node server.js
 
 4. **Iniciar servidor de datos (JSON Server)**
+    ```bash
     cd server
     json-server --watch db.json --port 3001
 
 5. **Iniciar app**
+    ```bash
     cd client
     npm start
 
