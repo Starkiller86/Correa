@@ -308,7 +308,7 @@
     {
       "id": "2",
       "name": "Whisky en las rocas",
-      "price": 560,
+      "price": 600,
       "ingredients": [
         "Whisky",
         "Hielo"
@@ -997,6 +997,30 @@
       "timestamp": "2025-08-09T22:03:29.036Z",
       "status": "completed",
       "source": "kitchen"
+    },
+    {
+      "id": "1754783779227",
+      "table": 10,
+      "items": [
+        {
+          "id": "17547837781973s68pka",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-09T23:56:19.227Z",
+      "status": "completed",
+      "source": "kitchen"
     }
   ],
   "cuentas_restaurante": [
@@ -1178,6 +1202,30 @@
         }
       ],
       "timestamp": "2025-08-09T22:03:29.036Z",
+      "status": "pending",
+      "source": "kitchen"
+    },
+    {
+      "id": "1754783779227",
+      "table": 10,
+      "items": [
+        {
+          "id": "17547837781973s68pka",
+          "name": "Hamburguesa Clásica",
+          "price": 120,
+          "ingredients": [
+            "Pan",
+            "Carne",
+            "Lechuga",
+            "Tomate",
+            "Queso"
+          ],
+          "category": "Platos Fuertes",
+          "choice": null,
+          "excludedIngredients": []
+        }
+      ],
+      "timestamp": "2025-08-09T23:56:19.227Z",
       "status": "pending",
       "source": "kitchen"
     }
